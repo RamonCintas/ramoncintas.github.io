@@ -1,0 +1,36 @@
+{
+    "language": "PT",
+
+    "title_site": "Portfólio - Ramon Cintas Gomes",
+    "meta_description_site": "Desenvolvedor, Engenheiro de Software",
+
+    "menu_header_home": "Início",
+    "menu_header_about": "Sobre",
+    "menu_header_projects": "Projetos",
+
+    "home_title": "Engenheiro de Software",
+    "home_description": "Desenvolvimento de sistemas, websites responsivos e aplicativos personalizados para atender às necessidades específicas de cada cliente.",
+    "home_action_button": "Entre em contato",
+
+    "about_title": "Ramon Cintas Gomes",
+    "about_description": "🚀 Desenvolvedor Graduado em (ADS) Análise e desenvolvimento de sistema pela (FATEC) Faculdade de tecnologia do estado de são paulo<br>💡 Criatividade e Soluções Inovadoras<br>📚 Entusiasmo para Aprender e Crescer<br>💻 Habilidades Atualizadas nas Últimas Tecnologias, Com experiência trabalhando em desenvolvimento de software e sempre pronto para contribuir e se adaptar às necessidades da empresa",
+    "project_title": "Principais Projetos",
+    "project_1_title": "PetsCare",
+    "project_1_description": "Aplicativo desenvolvido com CSS, JavaScript, Json, React Native, Java, Spring Boot, Docker, PostGreSQL, Render. Para delivery de produtos para pets utilizando a plataforma da expo.dev",
+    "project_2_title": "Doações Online",
+    "project_2_description": "Sistema desenvolvido com HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, HeidiSQL. Para facilitar doações, promover transparência e fortalecer a arrecadação de fundos para organizações sem fins lucrativos.",
+    "project_3_title": "FindPets",
+    "project_3_description": "Website responsivo para mobile desenvolvido com HTML, CSS, JavaScript, PHP, MySQL. Para pets em situações de doações e adoções, denuncia e resgate, alerta de animal perdido, abandonado, encontrado.",
+
+    "footer_copyright": "Ramon Cintas Gomes 2024 © Todos os direitos reservados",
+
+    "alt_mobile_menu_switch": "Menu",
+    "alt_photo_header": "Ilustração do CV, contendo uma foto do curriculo.",
+    "alt_linkedin": "Ir para o linkedin",
+    "alt_github": "Ir para o github",
+    "alt_project_1": "Imagem demonstrativa do projeto que mostra o logo do PetsCare.",
+    "alt_project_2": "Imagem demonstrativa do projeto que mostra o logo do API CRUD Doações Online.",
+    "alt_project_3": "Imagem demonstrativa do projeto que mostra o logo do FindPets.",
+
+    "change_language_aria_label": "Mudar linguagem do site"
+}

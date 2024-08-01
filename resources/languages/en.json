@@ -1,0 +1,36 @@
+{
+    "language": "EN",
+
+    "title_site": "Portfolio - Ramon Cintas Gomes",
+    "meta_description_site": "Developer, Software Engineer",
+
+    "menu_header_home": "Home",
+    "menu_header_about": "About",
+    "menu_header_projects": "Projects",
+
+    "home_title": "Software Engineer",
+    "home_description": "System development, responsive websites, and custom applications tailored to meet each client's specific needs.",
+    "home_action_button": "Get in Touch",
+
+    "about_title": "Ramon Cintas Gomes",
+    "about_description": "🚀 Developer Graduated in (ADS) System Analysis and Development from (FATEC) Faculdade de tecnologia do estado de são paulo<br>💡 Creativity and Innovative Solutions<br>📚 Enthusiasm to Learn and Grow<br>💻 Skills Updated with the Latest Technologies, with experience working in software development and always ready to contribute and adapt to the company’s needs",
+    "project_title": "Main Projects",
+    "project_1_title": "PetsCare",
+    "project_1_description": "Application developed with CSS, JavaScript, JSON, React Native, Java, Spring Boot, Docker, PostgreSQL, Render. For pet product delivery using the expo.dev platform",
+    "project_2_title": "Online Donations",
+    "project_2_description": "System developed with HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, HeidiSQL. To facilitate donations, promote transparency, and strengthen fundraising for non-profit organizations.",
+    "project_3_title": "FindPets",
+    "project_3_description": "Responsive mobile website developed with HTML, CSS, JavaScript, PHP, MySQL. For pets in situations of donations and adoptions, reporting and rescue, lost, abandoned, and found animal alerts.",
+
+    "footer_copyright": "Ramon Cintas Gomes 2024 © All rights reserved",
+
+    "alt_mobile_menu_switch": "Menu",
+    "alt_photo_header": "Illustration of the CV, containing a photo of the resume.",
+    "alt_linkedin": "Go to LinkedIn",
+    "alt_github": "Go to GitHub",
+    "alt_project_1": "Demonstrative image of the project showing the PetsCare logo.",
+    "alt_project_2": "Demonstrative image of the project showing the API CRUD Online Donations logo.",
+    "alt_project_3": "Demonstrative image of the project showing the FindPets logo.",
+
+    "change_language_aria_label": "Change site language"
+}

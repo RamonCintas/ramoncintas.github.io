@@ -1,0 +1,110 @@
+:root {
+  --background-primary: #e0f7fa; 
+  --background-secondary: #b2ebf2; 
+  --background-tertiary: #4fc3f7; 
+  --background-dark: #0288d1; 
+  
+  --font-color-primary: #01579b; 
+  --font-color-secondary: #0277bd; 
+  --font-color-light: #ffffff; 
+  
+  --accent-color: #039be5; 
+  --background-badges: #b3e5fc; 
+  --border-badges: #81d4fa; 
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--font-color-primary);
+}
+
+.home {
+  background-color: var(--background-primary);
+}
+
+.home .container .title {
+  color: var(--font-color-primary);
+}
+
+.home .container .description {
+  color: var(--font-color-secondary);
+}
+
+.home .container .contact-button {
+  background-color: var(--accent-color);
+  color: var(--font-color-light);
+}
+
+.home .container .contact-button:hover {
+  background-color: var(--font-color-light);
+  color: var(--accent-color);
+}
+
+.about {
+  background-image: url("../imgs/mesh-1.svg");
+  background-color: var(--background-secondary);
+}
+
+.about .container .title {
+  color: var(--font-color-primary);
+}
+
+.about .container .description {
+  color: var(--font-color-secondary);
+}
+
+.about .container .badges span {
+  background-color: var(--background-badges);
+  border: 1px solid var(--border-badges);
+}
+
+.about .container .badges span:hover {
+  background-color: var(--accent-color);
+}
+
+.projects {
+  background-color: var(--background-secondary);
+}
+
+.projects .cards .card {
+  background-color: var(--background-tertiary);
+  border: 1px solid var(--background-dark);
+}
+
+.projects .cards .card .card-content h3.project-title {
+  color: var(--font-color-primary);
+}
+
+.projects .cards .card .card-content .project-description {
+  color: var(--font-color-secondary);
+}
+
+.main-footer {
+  background-color: var(--background-dark);
+  color: var(--font-color-light);
+}
+
+.main-footer .content h3 {
+  color: var(--font-color-light);
+}
+
+.main-footer .social-network a svg {
+  fill: var(--font-color-light);
+}
+
+.main-footer .social-network a:hover svg {
+  fill: var(--accent-color);
+}
+
+#scroll-top-button {
+  background-color: var(--accent-color);
+  color: var(--font-color-light);
+}
+
+#scroll-top-button:hover {
+  background-color: var(--font-color-light);
+}
+
+#scroll-top-button svg {
+  fill: var(--font-color-light);
+}
