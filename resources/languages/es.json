@@ -21,6 +21,10 @@
     "project_2_description": "Sistema desarrollado con HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, HeidiSQL. Para facilitar donaciones, promover transparencia y fortalecer la recaudación de fondos para organizaciones sin fines de lucro.",
     "project_3_title": "FindPets",
     "project_3_description": "Sitio web responsivo para móviles desarrollado con HTML, CSS, JavaScript, PHP, MySQL. Para mascotas en situaciones de donaciones y adopciones, denuncias y rescates, alertas de animales perdidos, abandonados y encontrados.",
+    "project_4_title": "Adrenaline StreamAPI",
+    "project_4_description": "El proyecto AdrenalineStream API es una API JavaScript/NodeJS implementada en Docker sobre AWS para extraer información relevante de un sitio web con contenido en formato RSS. Esta aplicación guarda los datos en un archivo JSON dentro de un bucket S3, y permite consultar el contenido guardado a través de una página HTML alojada en la nube de AWS.",
+    "project_5_title": "Eagle Vision",
+    "project_5_description": "Eagle Vision es una API REST en Python que recibe imágenes de facturas electrónicas, las almacena en un bucket de S3 y utiliza Amazon Textract para extraer datos. Estos datos son refinados por un Large Language Model (LLM) y devueltos al usuario en formato JSON. La API se administra mediante AWS API Gateway y monitoriza las operaciones con AWS CloudWatch, lo que garantiza la escalabilidad y la eficiencia en la nube de AWS.",
 
     "footer_copyright": "Ramon Cintas Gomes 2024 © Todos los derechos reservados",
 
