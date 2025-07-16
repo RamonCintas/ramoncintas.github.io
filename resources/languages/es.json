@@ -1,0 +1,35 @@
+{
+    "language": "ES",
+
+    "title_site": "Portafolio - Ramon Cintas Gomes",
+    "meta_description_site": "Desarrollador, Ingeniero de Software",
+
+    "menu_header_home": "Inicio",
+    "menu_header_about": "Sobre mí",
+    "menu_header_projects": "Proyectos",
+
+    "home_title": "Ingeniero de Software",
+    "home_description": "Desarrollo de sistemas, sitios web responsivos y aplicaciones personalizadas para satisfacer las necesidades específicas de cada cliente.",
+    "home_action_button": "Ponte en contacto",
+
+    "about_title": "Ramon Cintas Gomes",
+    "about_description": "🚀 Desarrollador Graduado en (ADS) Análisis y Desarrollo de Sistemas por la (FATEC) Faculdade de tecnologia do estado de são paulo<br>💡 Creatividad y Soluciones Innovadoras<br>📚 Entusiasmo por Aprender y Crecer<br>💻 Habilidades Actualizadas con las Últimas Tecnologías, con experiencia trabajando en desarrollo de software y siempre listo para contribuir y adaptarse a las necesidades de la empresa",
+    "project_title": "Proyectos principales",
+    "project_1_title": "Donaciones en Línea",
+    "project_1_description": "Sistema desarrollado con HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, HeidiSQL. Para facilitar donaciones, promover transparencia y fortalecer la recaudación de fondos para organizaciones sin fines de lucro.",
+    "project_2_title": "PetsCare",
+    "project_2_description": "Aplicación desarrollada con CSS, JavaScript, JSON, React Native, Java, Spring Boot, Docker, PostgreSQL, Render. Para la entrega de productos para mascotas utilizando la plataforma expo.dev",
+    "project_3_title": "Adrenaline StreamAPI",
+    "project_3_description": "El proyecto AdrenalineStream API es una API JavaScript/NodeJS implementada en Docker sobre AWS para extraer información relevante de un sitio web con contenido en formato RSS. Esta aplicación guarda los datos en un archivo JSON dentro de un bucket S3, y permite consultar el contenido guardado a través de una página HTML alojada en la nube de AWS.",
+    "project_4_title": "Eagle Vision",
+    "project_4_description": "Eagle Vision es una API REST en Python que recibe imágenes de facturas electrónicas, las almacena en un bucket de S3 y utiliza Amazon Textract para extraer datos. Estos datos son refinados por un Large Language Model (LLM) y devueltos al usuario en formato JSON. La API se administra mediante AWS API Gateway y monitoriza las operaciones con AWS CloudWatch, lo que garantiza la escalabilidad y la eficiencia en la nube de AWS.",
+    "project_5_title": "Find Pets",
+    "project_5_description": "Find Pets integra una plataforma web y una app móvil. Usa IA para reconocer razas por imagen, chatbot con RAG para asistencia y envía correos automáticos al detectar mascotas similares por foto y ubicación.",
+
+    "alt_mobile_menu_switch": "Menú",
+    "alt_photo_header": "Ilustración del CV, que contiene una foto del currículum.",
+
+    "footer_copyright": "Ramon Cintas Gomes © Todos los derechos reservados",
+
+    "change_language_aria_label": "Cambiar idioma del sitio"
+}

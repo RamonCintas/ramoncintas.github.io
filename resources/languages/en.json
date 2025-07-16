@@ -1,0 +1,35 @@
+{
+    "language": "EN",
+
+    "title_site": "Portfolio - Ramon Cintas Gomes",
+    "meta_description_site": "Developer, Software Engineer",
+
+    "menu_header_home": "Home",
+    "menu_header_about": "About",
+    "menu_header_projects": "Projects",
+
+    "home_title": "Software Engineer",
+    "home_description": "System development, responsive websites, and custom applications tailored to meet each client's specific needs.",
+    "home_action_button": "Get in Touch",
+
+    "about_title": "Ramon Cintas Gomes",
+    "about_description": "🚀 Developer Graduated in (ADS) System Analysis and Development from (FATEC) Faculdade de tecnologia do estado de são paulo<br>💡 Creativity and Innovative Solutions<br>📚 Enthusiasm to Learn and Grow<br>💻 Skills Updated with the Latest Technologies, with experience working in software development and always ready to contribute and adapt to the company’s needs",
+    "project_title": "Main Projects",
+    "project_1_title": "Online Donations",
+    "project_1_description": "System developed with HTML, CSS, JavaScript, TypeScript, Angular, Java, Spring Boot, HeidiSQL. To facilitate donations, promote transparency, and strengthen fundraising for non-profit organizations.",
+    "project_2_title": "PetsCare",
+    "project_2_description": "Application developed with CSS, JavaScript, JSON, React Native, Java, Spring Boot, Docker, PostgreSQL, Render. For pet product delivery using the expo.dev platform",
+    "project_3_title": "Adrenaline StreamAPI",
+    "project_3_description": "The AdrenalineStream API project is a JavaScript/NodeJS API implemented in Docker on AWS to extract relevant information from a website with content in RSS format. This application saves the data in a JSON file inside an S3 bucket, and allows the saved content to be consulted via an HTML page hosted in the AWS cloud.",
+    "project_4_title": "Eagle Vision",
+    "project_4_description": "Eagle Vision is a REST API in Python that receives images of electronic invoices, stores them in an S3 bucket and uses Amazon Textract to extract data. This data is refined by a Large Language Model (LLM) and returned to the user in JSON format. The API is managed by the AWS API Gateway and monitors operations with AWS CloudWatch, ensuring scalability and efficiency in the AWS cloud.",
+    "project_5_title": "Find Pets",
+    "project_5_description": "Find Pets combines a web platform and mobile app. It uses AI for breed recognition from images, a RAG-powered chatbot for support, and sends automatic emails when similar pets are detected by photo and location.",
+      
+    "alt_mobile_menu_switch": "Menu",
+    "alt_photo_header": "Illustration of the CV, containing a photo of the resume.",
+
+    "footer_copyright": "Ramon Cintas Gomes © All rights reserved",
+
+    "change_language_aria_label": "Change site language"
+}

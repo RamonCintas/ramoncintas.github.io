@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n='{ "key": "title_site"}'>Ramon - Engenheiro de Software</title>
+    <meta name="description" content="Portifólio de Ramon Cintas. Engenheiro de Software."
+        data-i18n='{ "key": "meta_description_site", "typeKey": "content" }'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/main.css">
+    <link rel="icon" href="./resources/imgs/icons/iconpage.png" type="image/svg+xml">
+    <script src="./resources/js/index.js"></script>
+</head>
+
+<body>
+    <header class="header-menu">
+        <div class="wrapper">
+            <nav id="nav-menu-links" class="header-menu-navigation">
+                <ul>
+                    <li><a href="#home" data-i18n='{ "key": "menu_header_home" }'></a></li>
+                    <li><a href="#about" data-i18n='{ "key": "menu_header_about" }'></a></li>
+                    <li><a href="#projects" data-i18n='{ "key": "menu_header_projects" }'></a></li>
+                </ul>
+            </nav>
+            <div class="switches">
+                <div class="switch-language-content">
+                    <button type="button" onclick="toggleLangSwitchVisibility()" name="switch-language"
+                        class="switch-language" id="switch-language" aria-expanded="false"
+                        data-i18n='{ "key": "change_language_aria_label", "typeKey": "aria-label" }'>
+
+                        <svg width="23" height="23" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            overflow="visible">
+                            <path class="languageIcon"
+                                d="M3.28125 7.65625H22.9688M13.125 4.375V7.65625M18.5938 30.625L25.1562 15.3125L31.7188 30.625M20.6104 26.25H29.7021M19.2295 7.65625C19.2295 7.65625 17.5684 14.082 13.6035 18.9355C9.63867 23.7891 5.46875 26.25 5.46875 26.25"
+                                stroke="#173D45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="languageIcon"
+                                d="M17.5 22.9688C17.5 22.9688 15.1074 21.123 12.5781 17.8418C10.0488 14.5605 8.75 12.0312 8.75 12.0312"
+                                stroke="#173D45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <span data-i18n='{ "key": "language" }'></span>
+                    </button>
+                    <div class="languages" id="langs-content">
+                        <button type="button" onclick="changeLanguage('pt')">PT</button>
+                        <button type="button" onclick="changeLanguage('en')">EN</button>
+                        <button type="button" onclick="changeLanguage('es')">ES</button>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="mobile-menu-switch" class="mobile-menu-switch" onclick="toggleMenuHeader()"
+                aria-expanded="false">
+                <img src="./resources/imgs/icons/hamburger-menu-icon.svg" width="40" height="40" 
+                    data-i18n='{ "key": "alt_mobile_menu_switch", "typeKey": "alt" }'>
+            </button>
+        </div>
+    </header>
+    <main id="main">
+        <section class="home" id="home" aria-label="Home">
+            <div class="container wrapper">
+
+                <div class="introduction">
+                    <h1 class="title" data-i18n='{ "key": "home_title" }'></h1>
+                    <p class="description typewriter" data-i18n='{ "key": "home_description" }'></p>
+                    <a href="#about"><button class="contact-button"
+                            data-i18n='{ "key": "home_action_button"}'></button></a>
+                </div>
+
+                <div class="home-illustration">
+                    <img class="background-home-illustration" src="./resources/imgs/programando.gif" width="100%"
+                        data-i18n='{ "key": "alt_photo_header", "typeKey": "alt" }'>
+                </div>
+
+            </div>
+        </section>
+        <section class="about" id="about" aria-label="About">
+            <div class="container wrapper">
+
+                <div class="about-description">
+                    <h2 class="title" data-i18n='{ "key": "about_title" }'></h2>
+                    <p class="description" data-i18n='{ "key": "about_description" }'></p>
+
+                    <div class="social-network">
+                        <div class="badges">
+                            <span>
+                                <a href="https://api.whatsapp.com/send?phone=5511978235453" target="_blank">
+                                    <img class="social-network-badge" width="34" height="37" viewBox="0 0 34 37"
+                                        src="../resources/imgs/icons/whatsapp-icon.svg" alt="WhatsApp Icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="mailto:ramoncg.oficial2018@gmail.com" target="_blank">
+                                    <img class="social-network-badge" width="34" height="37" viewBox="0 0 34 37"
+                                        src="../resources/imgs/icons/email-icon.svg" alt="Email Icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.linkedin.com/in/ramon-cg/" target="_blank">
+                                    <img class="social-network-badge" width="34" height="37" viewBox="0 0 34 37"
+                                        src="../resources/imgs/icons/linkedin-icon.svg" alt="linkedin Icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://github.com/RamonCintas" target="_blank">
+                                    <img class="social-network-badge" width="34" height="37" viewBox="0 0 34 37"
+                                        src="../resources/imgs/icons/github-icon.svg" alt="github Icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://www.youtube.com/@ramon-cg" target="_blank">
+                                    <img class="social-network-badge" width="34" height="37" viewBox="0 0 34 37"
+                                        src="../resources/imgs/icons/youtube-icon.svg" alt="Youtube Icon">
+                                </a>
+                            </span>
+                            <span>
+                                <a href="https://bit.ly/4kbxR63" target="_blank">
+                                    <img class="social-network-badge" width="34" height="37" viewBox="0 0 34 37"
+                                        src="../resources/imgs/icons/google-drive-icon.svg" alt="google drive Icon">
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technical-skills">
+
+                    <div class="badges">
+                        <img class="background-home-illustration" src="./resources/imgs/perfil.png" width="100%"
+                            data-i18n='{ "key": "alt_photo_header", "typeKey": "alt" }'>
+                        <div align="center">
+                            <a href="#">
+                                <img width=100%
+                                    src="https://capsule-render.vercel.app/api?type=waving&color=088df8&height=120&section=header" /></a>
+                            <a href="https://drive.google.com/file/d/1MlUi0qKNn0fNTR27L0c-T2jQb3nFMzgr/view?usp=sharing"
+                                target="_blank"><img
+                                    src="https://img.shields.io/badge/currículo%20cv-F6C953?style=for-the-badge&logo=phoenixframework&logoColor=%23FD4F00"
+                                    alt="curriculo cv"></a>
+                            <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K1537685T1"
+                                target="_blank"><img
+                                    src="https://img.shields.io/badge/currículo%20lattes-F6C953?style=for-the-badge&logo=phoenixframework&logoColor=%23FD4F00"
+                                    alt="curriculo lattes"></a>
+                            <a href="https://drive.google.com/file/d/1Jxamlgi_KCvIKxImfBBLzDIslzO5vnNo/view?usp=sharing"
+                                target="_blank"><img
+                                    src="https://img.shields.io/badge/carta%20de%20apresentação-F6C953?style=for-the-badge&logo=phoenixframework&logoColor=%23FD4F00"
+                                    alt="carta de apresentação"></a>
+                            <a href="#">
+                                <img width=100%
+                                    src="https://capsule-render.vercel.app/api?type=waving&color=088df8&height=120&section=footer" /></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects" aria-label="Projects">
+
+            <div class="container wrapper">
+                <div align="center">
+                    <h1 class="project-title" style="color: #01579B;" data-i18n='{ "key": "project_title" }'></h1>
+                    <br>
+                    <div>
+                        <div class="cards">
+                            <div class="card">  
+                                <img src="./resources/imgs/projects/project-5.gif" >
+                                <div class="card-content">
+                                    <a href="https://github.com/RamonCintas/Find_Pets" target="_blank">
+                                        <h3 class="project-title"
+                                            data-i18n='{ "key": "project_5_title"}'></h3>
+                                    </a>
+                                    <p class="project-description"
+                                        data-i18n='{ "key": "project_5_description"}'></p>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                <img src="./resources/imgs/projects/project-4.png" >
+                                <div class="card-content">
+                                    <a href="https://github.com/RamonCintas/Eagle-Vision" target="_blank">
+                                        <h3 class="project-title"
+                                            data-i18n='{ "key": "project_4_title"}'></h3>
+                                    </a>
+                                    <p class="project-description"
+                                        data-i18n='{ "key": "project_4_description"}'></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div>
+                            <div class="cards">
+                                
+                                <div class="card">
+                                    <img src="./resources/imgs/projects/project-3.png" >
+                                    <div class="card-content">
+                                        <a href="https://github.com/RamonCintas/AdrenalineStreamAPI" target="_blank">
+                                            <h3 class="project-title"
+                                                data-i18n='{ "key": "project_3_title"}'></h3>
+                                        </a>
+                                        <p class="project-description"
+                                            data-i18n='{ "key": "project_3_description"}'></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./resources/imgs/projects/project-2.png" >
+                                    <div class="card-content">
+                                        <a href="https://github.com/RamonCintas/PetsCare" target="_blank">
+                                            <h3 class="project-title"
+                                                data-i18n='{ "key": "project_2_title"}'></h3>
+                                        </a>
+                                        <p class="project-description"
+                                            data-i18n='{ "key": "project_2_description"}'></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./resources/imgs/projects/project-1.png" >
+                                    <div class="card-content">
+                                        <a href="https://github.com/RamonCintas/Doacoes_online" target="_blank">
+                                            <h3 class="project-title"
+                                                data-i18n='{ "key": "project_1_title"}'></h3>
+                                        </a>
+                                        <p class="project-description"
+                                            data-i18n='{ "key": "project_1_description"}'></p>
+                                    </div>
+                                </div>
+    
+                            </div>
+
+                        <footer class="main-footer">
+                            <div class="content wrapper">
+                                <h3 data-i18n='{ "key": "footer_copyright" }'></h3>
+                            </div>
+                        </footer>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
