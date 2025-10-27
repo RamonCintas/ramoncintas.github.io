@@ -647,7 +647,7 @@ body, button {
 
 @media (max-width: 767.98px) {
   .main-footer {
-    display: none;
+    display: flex;
   }
 }
 

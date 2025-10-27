@@ -1,0 +1,97 @@
+<svg width="100%" height="auto" viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chat bubbles typing animation">
+  <style>
+    :root {
+      --color-primary: #00ff66;
+      --color-bg: rgba(0, 40, 0, 0.9);
+      --font-family: 'Courier New', monospace;
+    }
+
+    svg {
+      font-family: var(--font-family);
+      user-select: none;
+      background: transparent;
+      width: 100%;
+      height: auto;
+    }
+
+    .bubble {
+      fill: var(--color-bg);
+      stroke: var(--color-primary);
+      stroke-width: 1.5;
+      transition: fill 0.3s ease;
+    }
+
+    text {
+      fill: var(--color-primary);
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-shadow: 0 0 3px var(--color-primary);
+      dominant-baseline: middle;
+      user-select: none;
+    }
+
+    .dot {
+      fill: var(--color-primary);
+      opacity: 0.3;
+      transform-origin: center;
+      animation: blinkScale 1.5s infinite ease-in-out;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+
+    @keyframes blinkScale {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+
+    .typing, .msg {
+      opacity: 0;
+      transform: translateY(10px);
+      animation-fill-mode: forwards;
+      will-change: opacity, transform;
+    }
+
+    /* Animação de digitação */
+    .typing-1 {
+      animation: fadeInOut 2s ease-in-out 0s infinite;
+    }
+
+    /* Mensagem */
+    .msg-1 {
+      animation: appearAndDisappear 3s ease-in-out 6s infinite;
+    }
+
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0; transform: translateY(10px); }
+      25%, 75% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes appearAndDisappear {
+      0% { opacity: 0; transform: translateY(10px); }
+      10%, 80% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-10px); }
+    }
+
+  </style>
+
+  <!-- Animação de digitação -->
+  <g class="typing typing-1" transform="translate(20,0)">
+    <rect x="0" y="0" width="120" height="50" rx="25" ry="25" class="bubble"/>
+    <circle class="dot" cx="30" cy="25" r="7"/>
+    <circle class="dot" cx="55" cy="25" r="7"/>
+    <circle class="dot" cx="80" cy="25" r="7"/>
+  </g>
+
+  <!-- Mensagem) -->
+  <g class="msg msg-1" transform="translate(20,0)">
+    <rect x="0" y="5" width="100%" height="50" rx="15" ry="15" class="bubble"/>
+    <text x="20" y="30" lengthAdjust="spacing" textLength="90%">🚀 Developed by Ramon Cintas © All Rights Reserved</text>
+  </g>
+</svg>
